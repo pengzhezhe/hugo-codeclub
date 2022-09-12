@@ -116,7 +116,7 @@ BibTeX 是 LaTeX 最为常用的一个文献管理工具，它通常以一个独
 
 使用 Bibtex 命令一个文献管理文件为sample.bib，将文献按照指定格式进行整理，插入参考文献并进行编译。
 
-```bib
+```bibtex
 @article{einstein,
     author =       "Albert Einstein",
     title =        "{Zur Elektrodynamik bewegter K{\"o}rper}. ({German})
@@ -147,7 +147,7 @@ BibTeX 是 LaTeX 最为常用的一个文献管理工具，它通常以一个独
 在这三条文献中，einstein、latexcompanion、knuthwebsite 是文献的标签，在文档中，只需要在适当位置用引用命令如 \cite{} 便可以引用这些文献，例如，\cite{einstein}。
 
 
-```bib
+```latex
 \documentclass[12pt]{article}
 
 \begin{document}

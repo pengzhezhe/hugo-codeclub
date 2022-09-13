@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: 
+hasCJKLanguage: true
 
 minify:
   disableXML: true

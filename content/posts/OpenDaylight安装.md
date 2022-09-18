@@ -1,6 +1,6 @@
 ---
 title:  OpenDaylight 安装
-date: 2021/12/08
+date: 2021-12-08
 categories: 
 - SDN
 tags: 

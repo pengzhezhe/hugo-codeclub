@@ -30,7 +30,7 @@ tags:
 安装相关 Feature
 
 ```shell
-feature:install odl-restconf-all odl-openflowplugin-flow-services-ui odl-l2switch-switch-ui odl-dluxapps-applications
+feature:install odl-restconf-all odl-openflowplugin-flow-services-rest odl-l2switch-switch-ui odl-dluxapps-applications
 ```
 
 ## 使用 Mininet 验证

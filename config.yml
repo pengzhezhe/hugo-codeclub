@@ -68,7 +68,7 @@ params:
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: false
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   comments: false
   hidemeta: false
@@ -89,11 +89,6 @@ params:
     text: "CodeClub"
     # icon: /apple-touch-icon.png
     # iconHeight: 35
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
 
   cover:
     hidden: true # hide everywhere but not in structured data

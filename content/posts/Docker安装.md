@@ -52,6 +52,11 @@ echo \
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io
 ```
+5. 安装 Docker Compose
+
+```sh
+sudo apt install docker-compose-plugin
+```
 
 ## Docker 非 root 用户运行
 

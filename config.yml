@@ -19,18 +19,23 @@ outputs:
   - JSON
 
 minify:
-  disableXML: true
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
   minifyOutput: true
 
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 10
     - identifier: archives
       name: Archives
       url: /archives/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 20
     - identifier: categories
       name: Categories
@@ -40,28 +45,23 @@ menu:
       name: Tags
       url: /tags/
       weight: 40
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 50
-    - identifier: example
+    - identifier: about
       name: About
       url: https://github.com/pengzhezhe
-      weight: 60
+      weight: 50
   
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   title: CodeClub
   description: ""
   keywords: [Blog, CodeClub, Zhezhe Peng]
   author: Zhezhe Peng
-  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -79,21 +79,14 @@ params:
   assets:
     disableHLJS: true
     disableFingerprinting: false
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "CodeClub"
-    # icon: /apple-touch-icon.png
-    # iconHeight: 35
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
 
   # for search
   # https://fusejs.io/api/options.html

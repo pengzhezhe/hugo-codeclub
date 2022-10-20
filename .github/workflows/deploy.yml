@@ -1,0 +1,27 @@
+name: Deploy
+run-name: Deploy to VPS
+on:
+  push:
+    branches: master
+  pull_request:
+    branches: master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: Dev
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
+      - name: Setting SSH key
+        uses: webfactory/ssh-agent@v0.5.4
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Scan public keys
+        run: ssh-keyscan ${{ secrets.HOSTNAME }} >> ~/.ssh/known_hosts
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+      - name: Build
+        run: hugo --gc --minify -b https://${{ secrets.HOSTNAME }}
+      - name: Deploy
+        run: rsync -avz --delete public/ ${{ secrets.USERNAME }}@${{ secrets.HOSTNAME }}:/var/www/html

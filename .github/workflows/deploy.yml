@@ -1,14 +1,17 @@
-name: Deploy
-run-name: Deploy to VPS
+name: CodeClub Deloyment
+
 on:
   push:
     branches: master
   pull_request:
     branches: master
+
 jobs:
-  deploy:
+  deployment:
     runs-on: ubuntu-latest
-    environment: Dev
+    environment:
+      name: Dev
+      url: https://codeclub.top
     steps:
       - uses: actions/checkout@v3
         with:

@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Dev
-      url: https://codeclub.top
+      url: https://www.codeclub.top
     steps:
       - uses: actions/checkout@v3
         with:

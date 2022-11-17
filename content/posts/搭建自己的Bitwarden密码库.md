@@ -86,7 +86,7 @@ docker compose up -d
 (ssl) {
     header / Strict-Transport-Security "max-age=63072000"
 
-    encode zstd gzip
+    encode gzip
 
     tls {
         protocols tls1.2 tls1.3

@@ -7,6 +7,8 @@ tags:
 - BIOS更新
 ---
 
+> 如果电脑运行正常，请不要随便更新 BIOS！
+
 一般情况下神舟笔记本出厂后就不会提供 BIOS 更新，但是神舟笔记本都是采用蓝天（Clevo）模具，所以可以下载蓝天准系统的 BIOS 来更新神舟笔记本电脑的 BIOS。
 
 ## 下载 BIOS
@@ -21,7 +23,7 @@ tags:
 
 在模具的下载页面可以看到很多 BIOS 版本，一般下载最新的 BIOS 和 EC，这里我下载的 BIOS 和 EC 分别为 [B10522.zip](http://repo.palkeo.com/clevo-mirror/N85xHKHJ/B10522.zip) 和 [EC10515.zip](http://repo.palkeo.com/clevo-mirror/N85xHKHJ/EC10515.zip)。解压到不含中文路径的文件夹。
 
-> 注意：BIOS 只可以安装比现有版本新的，不可以回退版本，不然容易出现问题
+> 注意：BIOS 只可以更新到新的版本，不可以回退版本。
 
 ## 刷写 EC
 

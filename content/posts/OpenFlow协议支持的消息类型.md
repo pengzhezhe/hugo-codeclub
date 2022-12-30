@@ -2,9 +2,8 @@
 layout: post
 title:  OpenFlow 协议支持的消息类型
 date: 2020-10-17
-categories: 
-- SDN
 tags: 
+- SDN
 - OpenFlow
 ---
 

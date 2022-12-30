@@ -1,8 +1,6 @@
 ---
 title: "搭建自己的 Bitwarden 密码库"
 date: 2022-10-22T23:10:31+08:00
-categories: 
-- Others
 tags: 
 - Bitwarden
 - 密码管理

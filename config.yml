@@ -27,6 +27,9 @@ minify:
   disableXML: false
   minifyOutput: true
 
+taxonomies:
+  tag: tags
+
 menu:
   main:
     - identifier: archives
@@ -37,17 +40,17 @@ menu:
       name: Search
       url: /search/
       weight: 20
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 40
+      weight: 30
     - identifier: about
       name: About
       url: https://github.com/pengzhezhe
+      weight: 40
+    - identifier: RSS
+      name: RSS
+      url: /index.xml
       weight: 50
   
 params:

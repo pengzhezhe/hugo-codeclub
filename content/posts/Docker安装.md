@@ -1,8 +1,6 @@
 ---
 title: Docker 安装
 date: 2020-10-17
-categories: 
-- Docker
 tags: 
 - Docker
 ---

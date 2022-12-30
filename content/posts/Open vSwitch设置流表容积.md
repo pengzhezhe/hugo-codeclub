@@ -1,11 +1,10 @@
 ---
 title: Open vSwitch 设置流表容积
 date: 2022-03-01 16:12:01
-categories: 
-- SDN
 tags:
-- Open vSwitch
+- SDN
 - OpenFlow
+- Open vSwitch
 ---
 
 在硬件交换机中，由于芯片大小的限制，流表的容量是一个有限的固定值。Open vSwitch (OVS) 是一个开源的虚拟交换机（软件交换机）。默认情况下，OVS 会根据系统状态自动设置流表的容量。

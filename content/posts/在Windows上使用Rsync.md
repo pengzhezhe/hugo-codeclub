@@ -1,9 +1,6 @@
 ---
-title: "在 Windows 上使用 Rsync"
+title: "在 Windows 上使用 Rsync，Git For Windows 补全 Rsync"
 date: 2022-11-25T20:53:15+08:00
-categories: 
-- Windows
-- 环境配置
 tags: 
 - Rsync
 ---

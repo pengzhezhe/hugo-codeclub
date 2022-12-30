@@ -1,8 +1,6 @@
 ---
 title: "编程题 ACM 模式输入输出总结"
 date: 2022-09-25T13:59:22+08:00
-categories:
-- 算法
 tags:
 - 算法
 - ACM

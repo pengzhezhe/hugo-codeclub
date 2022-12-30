@@ -1,9 +1,6 @@
 ---
 title: Liunx 配置 Java 环境
 date: 2022-03-11 09:27:29
-categories: 
-- Linux
-- 环境配置
 tags: 
 - Java
 - JDK

@@ -1,8 +1,6 @@
 ---
 title: 通过内网穿透搭建 Risk of Rain 2 私服
 date: 2022-03-16 20:41:11
-categories: 
-- Others
 tags:
 - Risk of Rain 2
 - 内网穿透

@@ -1,8 +1,6 @@
 ---
 title: Java 为什么推荐使用 Deque 而不是 Stack 构造一个栈
 date: 2022-08-16 15:59:33
-categories: 
-- Java
 tags:
 - Java
 ---

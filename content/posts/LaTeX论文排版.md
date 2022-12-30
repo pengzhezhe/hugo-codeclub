@@ -1,8 +1,6 @@
 ---
 title: LaTeX 论文排版
 date: 2022-08-22 17:11:04
-categories: 
-- LaTeX
 tags:
 - LaTeX
 - 论文

@@ -1,8 +1,6 @@
 ---
 title: "GitHub Actions 自动部署 Hugo 博客到云服务器"
 date: 2022-11-25T20:38:01+08:00
-categories:
-- 博客
 tags:
 - 博客
 - GitHub Actions

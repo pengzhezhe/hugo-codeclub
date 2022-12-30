@@ -1,8 +1,6 @@
 ---
 title: VMware 使用 open-vm-tools 启用 HGFS 共享文件夹
 date: 2022-04-28
-categories: 
-- Linux
 tags: 
 - Ubuntu
 - VMWare

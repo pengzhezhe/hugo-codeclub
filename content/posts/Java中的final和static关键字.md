@@ -1,8 +1,6 @@
 ---
 title: Java 中的 final 和 static 关键字
 date: 2020-06-01 
-categories: 
-- Java
 tags:
 - Java
 ---

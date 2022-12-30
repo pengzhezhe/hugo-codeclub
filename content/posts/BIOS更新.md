@@ -1,8 +1,6 @@
 ---
 title: 神舟笔记本更新 BIOS
 date: 2022-01-25 21:36:28
-categories: 
-- Others
 tags:
 - BIOS更新
 ---
@@ -65,5 +63,4 @@ tags:
 
 ## 参考资料
 
-- https://www.bilibili.com/read/cv2802267
 - https://post.smzdm.com/p/av7zp78n/

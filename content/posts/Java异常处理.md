@@ -1,8 +1,6 @@
 ---
 title: Java 异常处理
 date: 2020-06-01 
-categories: 
-- Java
 tags:
 - Java
 ---

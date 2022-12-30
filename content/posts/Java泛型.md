@@ -1,8 +1,6 @@
 ---
 title: Java 泛型
 date: 2022-03-19 15:20:16
-categories: 
-- Java
 tags:
 - Java
 ---

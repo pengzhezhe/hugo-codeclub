@@ -5,10 +5,9 @@ languageCode: zh
 paginate: 5
 theme: PaperMod
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
+enableEmoji: true
 
 hasCJKLanguage: true
 
@@ -18,38 +17,29 @@ outputs:
   - RSS
   - JSON
 
-minify:
-  disableCSS: false
-  disableHTML: false
-  disableJS: false
-  disableJSON: false
-  disableSVG: false
-  disableXML: false
-  minifyOutput: true
-
 taxonomies:
   tag: tags
 
 menu:
   main:
     - identifier: archives
-      name: Archives
+      name: 归档
       url: /archives/
       weight: 10
     - identifier: search
-      name: Search
+      name: 搜索
       url: /search/
       weight: 20
     - identifier: tags
-      name: Tags
+      name: 标签
       url: /tags/
       weight: 30
     - identifier: about
-      name: About
+      name: 关于
       url: https://github.com/pengzhezhe
       weight: 40
     - identifier: RSS
-      name: RSS
+      name: 订阅
       url: /index.xml
       weight: 50
   
@@ -70,7 +60,7 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: false
+  UseHugoToc: true
   disableSpecial1stPost: true
   disableScrollToTop: false
   comments: false
@@ -81,10 +71,6 @@ params:
 
   assets:
     disableHLJS: true
-    disableFingerprinting: false
-
-  label:
-    text: "CodeClub"
 
   cover:
     hidden: true

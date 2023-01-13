@@ -34,13 +34,13 @@ menu:
       name: 标签
       url: /tags/
       weight: 30
-    - identifier: about
-      name: 关于
-      url: https://github.com/pengzhezhe
-      weight: 40
     - identifier: RSS
       name: 订阅
       url: /index.xml
+      weight: 40
+    - identifier: github
+      name: GitHub
+      url: https://github.com/pengzhezhe
       weight: 50
   
 params:
@@ -91,7 +91,7 @@ params:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 markup:
   highlight:
-    noClasses: true
+    noClasses: false
     codeFences: true
     guessSyntax: true
     lineNos: true

@@ -111,8 +111,8 @@ domain {
 
 首先点击拓展图标，在弹出的窗口的左上角有一个齿轮，单击它即可进入设置自托管环境的页面，在服务器 URL 输入框中填入 `https://domain` 然后保存，最后输入前面注册的账号，登录即可正常使用。
 
-![](https://s2.loli.net/2022/10/23/snUqEM1IFC7oauH.png)
-![](https://s2.loli.net/2022/10/23/1HeCjK6MZFsQ5zt.png)
+![Bitwarden usage step 1](https://s2.loli.net/2022/10/23/snUqEM1IFC7oauH.png)
+![Bitwarden usage step 2](https://s2.loli.net/2022/10/23/1HeCjK6MZFsQ5zt.png)
 
 ## 更新 Bitwarden
 

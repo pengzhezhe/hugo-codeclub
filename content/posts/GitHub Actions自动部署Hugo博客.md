@@ -112,4 +112,4 @@ jobs:
 
 ## 遇到的问题
 
-- GitHub Actions 部署时，腾讯云会发送异地告警邮件，说是检测到异地登录，来源IP是美国，危险等级高危。
+- GitHub Actions 部署时，因为 GitHub Actions 的服务器在境外，腾讯云会发送异地登录警告邮件，无法自动部署。需要在腾讯云[主机安全控制台](https://console.cloud.tencent.com/cwp/manage/loginLog/loginwhitelist)中为用于部署的用户创建白名单。

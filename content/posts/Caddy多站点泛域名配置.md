@@ -192,3 +192,28 @@ sudo systemctl restart caddy.service
 然后可以使用 [SSL Labs](https://www.ssllabs.com/ssltest/index.html) 来查看我们的服务器 SSL 设置兼容性如何，我这里使用的[Mozilla SSL Configuration Generator](https://ssl-config.mozilla.org/) 的 `Intermediate` 配置在 `SSL Labs` 可以获得 `A+` 的评分，基本可以兼容绝大多数设备。
 
 ![SSL Labs Summary](https://s2.loli.net/2023/01/13/9nLpgNtJOBWZ1XY.png)
+
+## 更新 Caddy Server
+
+下载最新版本的 Caddy Server，然后停止正在运行的 Caddy Server，并删除 Caddy Server。
+
+```sh
+sudo systemctl disable caddy
+sudo systemctl stop caddy.service
+sudo rm /usr/bin/caddy
+```
+
+将下载的 Caddy Server 移动到 `/usr/bin` 目录下，修改可执行文件的所有者并修改权限。
+
+```sh
+sudo mv caddy /usr/bin/caddy
+sudo chown root:root /usr/bin/caddy
+sudo chmod 755 /usr/bin/caddy
+```
+
+重新启动 Caddy Server。
+
+```sh
+sudo systemctl enable caddy
+sudo systemctl start caddy
+```

@@ -46,6 +46,9 @@ jobs:
         run: ssh-keyscan ${{ secrets.HOSTNAME }} >> ~/.ssh/known_hosts
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
+        with: 
+          hugo-version: 'latest'
+          extended: true
       - name: Build
         run: hugo --gc --minify -b https://${{ secrets.HOSTNAME }}
       - name: Deploy

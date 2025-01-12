@@ -48,6 +48,13 @@ sudo useradd --system \
     caddy
 ```
 
+创建Caddy Server配置文件
+
+```bash
+sudo mkdir /etc/caddy
+sudo touch /etc/caddy/Caddyfile
+```
+
 然后，我们将使用 `systemd` 来创建系统服务，在 `/etc/systemd/system/` 目录下创建 `caddy.service` 文件，文件内容如下：
 
 ```ini

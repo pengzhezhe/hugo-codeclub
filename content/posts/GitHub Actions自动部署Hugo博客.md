@@ -116,3 +116,14 @@ jobs:
 ## 遇到的问题
 
 - GitHub Actions 部署时，因为 GitHub Actions 的服务器在境外，腾讯云会发送异地登录警告邮件，无法自动部署。需要在腾讯云[主机安全控制台](https://console.cloud.tencent.com/cwp/manage/loginLog/loginwhitelist)中为用于部署的用户创建白名单。
+
+- 第一次部署时可能会提示以下错误，这是因为用于部署的用户没有写这个目录的权限，需要按下面的方式手动授予权限
+```
+rsync: [generator] chgrp "/var/www/html/." failed: Operation not permitted (1)
+```
+
+```bash
+sudo mkdir -p /var/www/html
+sudo chmod -R 755 /var/www/html/
+sudo chown -R user:group /var/www/html/   # 替换 user 和 group 为用于部署的用户名和组名
+```

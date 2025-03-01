@@ -55,7 +55,13 @@ sudo mkdir /etc/caddy
 sudo touch /etc/caddy/Caddyfile
 ```
 
-然后，我们将使用 `systemd` 来创建系统服务，在 `/etc/systemd/system/` 目录下创建 `caddy.service` 文件，文件内容如下：
+然后，我们将使用 `systemd` 来创建系统服务，在 `/etc/systemd/system/` 目录下创建 `caddy.service` 文件
+
+```bash
+sudo vim /etc/systemd/system/caddy.service
+```
+
+文件内容如下：
 
 ```ini
 [Unit]
@@ -94,6 +100,8 @@ sudo systemctl enable --now caddy
 ```bash
 sudo systemctl status caddy
 ```
+
+按照上面的步骤如果 `/etc/caddy/Caddyfile` 中没有正确配置，这里会启动失败，暂时先忽略，后文会介绍如何配置 `Caddy` 并给出一个模板，正确配置 `Caddyfile` 后再重启服务即可。
 
 ## 自动 HTTPS 配置
 
